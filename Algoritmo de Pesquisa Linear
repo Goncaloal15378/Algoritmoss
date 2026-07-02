@@ -1,0 +1,7 @@
+def pesquisa_linear(lista, valor):
+    for i in range(len(lista)):
+        if lista[i] == valor:
+            return i
+    return -1
+
+print(pesquisa_linear([3, 8, 1, 9], 1))

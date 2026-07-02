@@ -1,0 +1,5 @@
+def palindromo(texto):
+    texto = texto.lower().replace(" ", "")
+    return texto == texto[::-1]
+
+print(palindromo("A mala nada na lama"))

@@ -1,0 +1,7 @@
+def contar_caracteres(texto):
+    contagem = {}
+    for char in texto:
+        contagem[char] = contagem.get(char, 0) + 1
+    return contagem
+
+print(contar_caracteres("algoritmo"))
